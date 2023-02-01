@@ -185,7 +185,7 @@ export default {
       ]
     },
     itemLinkAttributes () {
-      const target = this.item.external ? '_blank' : '_self'
+      const target = '_self'
       const tabindex = this.item.disabled ? -1 : null
 
       return {
